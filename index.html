@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Globe Traveler</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/20c7659e38.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-title">
+          <i class="fa-solid fa-plane-departure"></i>
+          <h1>Globe <span>Traveler</span></h1>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Packages</a></li>
+            <li><a href="">Testimonial</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid mobile-menu fa-bars"></i>
+      </nav>
+    </header>
+    <section class="explore">
+      <h1>Explore Your Travel</h1>
+      <p>
+        We invite individuals to embark on a journey of discovery and adventure,
+        transcending the ordinary and embracing the extraordinary.
+      </p>
+      <div class="destination-container">
+        <input type="text" placeholder="Destination" />
+        <input type="text" placeholder="When" /><i
+          class="fa-solid arrow-1 fa-angle-down"
+        ></i>
+        <input type="text" placeholder="Select type" /><i
+          class="fa-solid arrow-2 fa-angle-down"
+        ></i>
+        <button class="btn-primary">
+          <i class="fa-solid search fa-magnifying-glass"></i>
+          <p>Find Now</p>
+        </button>
+      </div>
+    </section>
+  </body>
 </html>
