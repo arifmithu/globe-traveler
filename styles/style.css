@@ -12,7 +12,6 @@
   height: 42px;
   display: flex;
   white-space: nowrap;
-  /* gap: 5px; */
   border-radius: 8px;
   background: #ff5400;
   color: #fff;
@@ -71,7 +70,6 @@ nav .mobile-menu {
 .explore {
   background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
   background-size: cover;
-  width: 100%;
   background-repeat: no-repeat;
   margin: 0 135px;
   width: 80%;
@@ -120,25 +118,178 @@ nav .mobile-menu {
   position: absolute;
   left: 610px;
   top: 430px;
-  color: #131318B2;
+  color: #131318b2;
 }
 .explore .destination-container .arrow-2 {
   position: absolute;
   left: 810px;
   top: 430px;
-  color: #131318B2;
+  color: #131318b2;
 }
-.explore .destination-container .btn-primary .search{
-    position: absolute;
-    top: 427px;
-    left: 885px;
+.explore .destination-container .btn-primary .search {
+  position: absolute;
+  top: 427px;
+  left: 885px;
 }
-.explore .destination-container .btn-primary p{
-    text-align: center;
-    display: flex;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+.explore .destination-container .btn-primary p {
+  text-align: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
+/* popular tours section styles here */
+
+.popular-tours {
+  margin: 100px 115px 100px 135px;
+  display: flex;
+  gap: 53px;
+}
+.popular-tours .popular-text-container h1 {
+  color: #131318;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.popular-tours .popular-text-container p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.popular-tours .popular-text-container ul {
+  padding-left: 20px;
+}
+.popular-tours .popular-text-container li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.popular-tours .popular-text-container .btn {
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+}
+.popular-tours img {
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* choose destination section styles */
+
+.choose-destination {
+  margin: 0 115px 0 135px;
+  position: relative;
+}
+.choose-destination .destination-text h1 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.choose-destination .destination-text p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 643px;
+  margin: 0 auto 48px auto;
+}
+.choose-destination .destination-image-container .row-1,
+.choose-destination .destination-image-container .row-2,
+.choose-destination .destination-image-container .row-3 {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.choose-destination .destination-image-container .row-1 img {
+  width: 48.97%;
+}
+.choose-destination .destination-image-container .row-2 .img-3 {
+  width: 31.96%;
+}
+.choose-destination .destination-image-container .row-2 .img-4 {
+  width: 40.51%;
+}
+.choose-destination .destination-image-container .row-2 .img-5 {
+  width: 23.1%;
+}
+.choose-destination .destination-image-container .row-3 .img-6 {
+  width: 40.43%;
+}
+.choose-destination .destination-image-container .row-3 .img-7 {
+  width: 57.52%;
+}
+.choose-destination .maldives {
+  position: absolute;
+  top: 290px;
+  left: 200px;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
+.choose-destination .indonesia {
+  position: absolute;
+  top: 290px;
+  left: 700px;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
+.choose-destination .srilanka {
+    position: absolute;
+    top: 565px;
+    left: 105px;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+  }
+  .choose-destination .north-america {
+    position: absolute;
+    top: 565px;
+    left: 450px;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+  }
+  .choose-destination .kashmir {
+    position: absolute;
+    top: 565px;
+    left: 840px;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+  }
+  .choose-destination .bangladesh {
+    position: absolute;
+    top: 850px;
+    left: 120px;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+  }
+  .choose-destination .bandarban {
+    position: absolute;
+    top: 840px;
+    left: 660px;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+  }
