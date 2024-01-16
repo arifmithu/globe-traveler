@@ -33,22 +33,22 @@ header nav {
   justify-content: space-between;
   align-items: center;
 }
-nav .nav-title {
+.nav-title {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
 }
-nav .nav-title .fa-solid {
+.nav-title .fa-solid {
   color: #ff5400;
   font-size: 2rem;
 }
-nav .nav-title h1 {
+.nav-title h1 {
   color: #131318;
   font-size: 36px;
   font-weight: 800;
 }
-nav .nav-title h1 span {
+.nav-title h1 span {
   color: #ff5400;
 }
 nav .nav-links ul {
@@ -532,6 +532,33 @@ nav .mobile-menu {
   object-fit: covers;
 }
 
+/* rotate container style here */
+
+.rotate-container {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 815px;
+  top: 6100px;
+}
+.rotate-container h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+.rotate-container h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
 /* gallery section styles here */
 
 .gallery {
@@ -581,25 +608,69 @@ nav .mobile-menu {
   top: 250px;
   left: 710px;
 }
-.gallery .friends{
-    top: 570px;
-    left: 120px;
+.gallery .friends {
+  top: 570px;
+  left: 120px;
 }
-.gallery .students{
-    top: 600px;
-    left: 650px;
+.gallery .students {
+  top: 600px;
+  left: 650px;
 }
-.gallery .honeymoon{
-    top: 970px;
-    left: 120px;
+.gallery .honeymoon {
+  top: 970px;
+  left: 120px;
 }
-.gallery .temple{
-    top: 970px;
-    left: 650px;
+.gallery .temple {
+  top: 970px;
+  left: 650px;
 }
-.gallery .our-btn{
-    display: flex;
-    justify-content: center;
-    margin: 50px auto 50px auto;
+.gallery .our-btn {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto 50px auto;
+}
 
+/* footer styles here */
+
+footer {
+  width: 100%;
+  height: 500px;
+  background: rgba(19, 19, 24, 0.05);
+}
+footer .footer-title {
+  font-size: 32px;
+  margin: 110px auto 15px auto;
+  padding-top: 110px;
+}
+footer .footer-description {
+  color: #5a5a5d;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+footer .social {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+footer .social .fa-brands {
+  padding: 5px;
+  border-radius: 40%;
+  background-color: #a2a2a5;
+  color: #010209;
+}
+footer hr {
+  margin: 0 210px;
+}
+footer .copyright {
+  color: #131318;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
