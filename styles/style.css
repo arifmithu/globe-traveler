@@ -16,7 +16,14 @@
   background: #ff5400;
   color: #fff;
   border: none;
+  justify-content: center;
+  align-items: center;
 }
+.btn {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+  }
 
 /* header styles */
 
@@ -131,14 +138,6 @@ nav .mobile-menu {
   top: 427px;
   left: 885px;
 }
-.explore .destination-container .btn-primary p {
-  text-align: center;
-  display: flex;
-  height: 100%;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
 
 /* popular tours section styles here */
 
@@ -170,13 +169,6 @@ nav .mobile-menu {
   font-weight: 400;
   line-height: 26px;
   margin-bottom: 16px;
-}
-.popular-tours .popular-text-container .btn {
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 800;
 }
 .popular-tours img {
   object-fit: cover;
@@ -362,4 +354,88 @@ nav .mobile-menu {
 }
 .choose-us .card-3 {
   margin: 24px auto 100px auto;
+}
+
+/* discounts section styles here */
+
+.discounts {
+  margin: 0 115px 110px 135px;
+}
+.discounts .discount-text-container h1 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.discounts .discount-text-container p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 643px;
+  margin: 0 auto 48px auto;
+}
+.discounts .flex-container {
+  display: flex;
+  position: relative;
+  margin-bottom: 24px;
+}
+.discounts .flex-container img {
+  width: 100%;
+  height: 500px;
+}
+.discounts .discount-card-1 {
+  padding: 50px;
+  position: absolute;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 370px;
+  height: 300px;
+  left: 480px;
+  top: 50px;
+}
+.discounts .discount-card-1 .location {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 26px;
+}
+.discounts .discount-card-1 .location .left,
+.discounts .discount-card-1 .location .middle,
+.discounts .discount-card-1 .location .right {
+  display: flex;
+  gap: 8px;
+  /* background-color: red; */
+}
+.discounts .discount-card-1 .location .left .fa-clock, .discounts .discount-card-1 .location .middle .fa-people-group , .discounts .discount-card-1 .location .right .fa-location-dot {
+    color: #FF5400;
+    margin-top: 5px;
+}
+.discounts .discount-card-1 h1 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.discounts .discount-card-1 p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.discounts .discount-card-1 h3 {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.discounts .flex-container .second-card{
+    left: 100px;
+}
+.discounts .packages{
+    margin: 24px auto 100px auto;
 }
