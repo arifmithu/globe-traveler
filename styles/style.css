@@ -24,6 +24,23 @@
   font-size: 20px;
   font-weight: 800;
 }
+.choose-destination .destination-text p,.choose-us .choose-us-text-container p, .discounts .discount-text-container p {
+    color: rgba(19, 19, 24, 0.7);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    margin: 0 auto 48px auto;
+  }
+  .choose-us .card-container .card-1 p,
+.choose-us .card-container .card-2 p,
+.choose-us .card-3 p , .discounts .discount-card-1 p, .perfect-place .perfect-place-text-container p, .newsletter .data-collection p{
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
 
 /* header styles */
 
@@ -188,15 +205,6 @@ nav .mobile-menu {
   font-weight: 800;
   margin-bottom: 24px;
 }
-.choose-destination .destination-text p {
-  color: rgba(19, 19, 24, 0.7);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  width: 643px;
-  margin: 0 auto 48px auto;
-}
 .choose-destination .destination-image-container .row-1,
 .choose-destination .destination-image-container .row-2,
 .choose-destination .destination-image-container .row-3 {
@@ -298,15 +306,7 @@ nav .mobile-menu {
   font-weight: 800;
   margin-bottom: 24px;
 }
-.choose-us .choose-us-text-container p {
-  color: rgba(19, 19, 24, 0.7);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  width: 643px;
-  margin: 0 auto 48px auto;
-}
+
 .choose-us .card-container {
   display: flex;
   gap: 24px;
@@ -344,16 +344,8 @@ nav .mobile-menu {
   font-weight: 800;
   margin-bottom: 16px;
 }
-.choose-us .card-container .card-1 p,
-.choose-us .card-container .card-2 p,
-.choose-us .card-3 p {
-  color: #5a5a5d;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-}
 .choose-us .card-3 {
-  margin: 24px auto 100px auto;
+  margin: 24px auto 20px auto;
 }
 
 /* discounts section styles here */
@@ -367,15 +359,7 @@ nav .mobile-menu {
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 24px;
-}
-.discounts .discount-text-container p {
-  color: rgba(19, 19, 24, 0.7);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  width: 643px;
-  margin: 0 auto 48px auto;
+  margin-top: -20px;
 }
 .discounts .flex-container {
   display: flex;
@@ -395,8 +379,8 @@ nav .mobile-menu {
   backdrop-filter: blur(2.5px);
   width: 370px;
   height: 300px;
-  left: 480px;
-  top: 50px;
+  left: 40%;
+  top: 10%;
 }
 .discounts .discount-card-1 .location {
   display: flex;
@@ -422,18 +406,12 @@ nav .mobile-menu {
   font-weight: 800;
   margin-bottom: 16px;
 }
-.discounts .discount-card-1 p {
-  color: #5a5a5d;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  margin-bottom: 16px;
-}
 .discounts .discount-card-1 h3 {
   color: #ff5400;
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 24px;
+  margin-top: 16px;
 }
 .discounts .flex-container .second-card {
   left: 100px;
@@ -458,17 +436,9 @@ nav .mobile-menu {
   font-weight: 800;
   line-height: 60px;
 }
-.perfect-place .perfect-place-text-container p {
-  color: #5a5a5d;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  width: 100%;
-  text-align: justify;
-  margin-bottom: 24px;
-}
 .perfect-place .perfect-place-text-container ul {
   padding-left: 20px;
+  margin-top: 24px;
 }
 .perfect-place .perfect-place-text-container ul li {
   color: #131318;
@@ -502,17 +472,11 @@ nav .mobile-menu {
   font-weight: 800;
   margin-bottom: 16px;
 }
-.newsletter .data-collection p {
-  color: #5a5a5d;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  margin-bottom: 48px;
-}
+
 .newsletter .data-collection hr{
     width: 393px;
     background: rgba(19, 19, 24, 0.10);
-    margin: 0 auto;
+    margin: 48px auto 24px auto;
 }
 .newsletter .data-collection input {
   width: 393px;
@@ -632,7 +596,7 @@ nav .mobile-menu {
 .gallery .our-btn {
   display: flex;
   justify-content: center;
-  margin: 50px auto 50px auto;
+  margin: 50px auto -50px auto;
 }
 
 /* footer styles here */
@@ -775,7 +739,8 @@ footer .copyright {
   }
   .choose-destination .destination-text h1 {
     font-size: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
+    margin-top: 16px;
   }
   .choose-destination .destination-text p {
     font-size: 14px;
@@ -852,7 +817,8 @@ footer .copyright {
   }
   .choose-us .choose-us-text-container h1 {
     font-size: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 7px;
+    margin-top: 45px;
   }
   .choose-us .choose-us-text-container p {
     font-size: 14px;
@@ -914,8 +880,8 @@ footer .copyright {
     border-radius: 16px;
     width: 300px;
     height: 300px;
-    left: 80px;
-    top: 20px;
+    left: 20%;
+    top: 80px;
   }
   .discounts .discount-card-1 .location {
     flex-direction: column;
@@ -929,8 +895,8 @@ footer .copyright {
 }
 .discounts .discount-card-1 .location .right{
     position: absolute;
-    left: 150px;
-    top: 52px;
+    left: 140px;
+    top: 44px;
 }
 .discounts .discount-card-1 h1 {
     font-size: 20px;
@@ -1022,8 +988,8 @@ footer .copyright {
     width: 215px;
     height: 80px;
     border-radius: 16px;
-    left: 360px;
-    top: 7610px;
+    left: 350px;
+    top: 7635px;
   }
   .rotate-container h3 {
     font-size: 15.854px;
