@@ -692,19 +692,19 @@ footer .copyright {
   }
   .explore .destination-container .arrow-1 {
     position: absolute;
-    left: 355px;
+    left: 60%;
     top: 355px;
     font-size: 1.3rem;
   }
   .explore .destination-container .arrow-2 {
     position: absolute;
-    left: 355px;
+    left: 60%;
     top: 415px;
     font-size: 1.3rem;
   }
   .explore .destination-container .btn-primary .search {
     top: 475px;
-    left: 245px;
+    left: 41%;
     background-color: red;
   }
   .popular-tours {
@@ -769,45 +769,45 @@ footer .copyright {
     border-radius: 20px;
   }
   .choose-destination .maldives {
-    top: 235px;
-    left: 240px;
-    font-size: 20px;
+    top: 10%;
+    left: 43%;
+    font-size: 25px;
     font-weight: 700;
   }
   .choose-destination .indonesia {
-    top: 570px;
-    left: 240px;
-    font-size: 20px;
+    top: 24%;
+    left: 43%;
+    font-size: 25px;
     font-weight: 700;
   }
   .choose-destination .srilanka {
-    top: 845px;
-    left: 240px;
-    font-size: 20px;
+    top: 38%;
+    left: 43%;
+    font-size: 25px;
     font-weight: 800;
   }
   .choose-destination .north-america {
-    top: 1195px;
-    left: 240px;
-    font-size: 20px;
+    top: 51.5%;
+    left: 35%;
+    font-size: 25px;
     font-weight: 800;
   }
   .choose-destination .kashmir {
-    top: 1495px;
-    left: 240px;
-    font-size: 20px;
+    top: 65%;
+    left: 43%;
+    font-size: 25px;
     font-weight: 800;
   }
   .choose-destination .bangladesh {
-    top: 1830px;
-    left: 210px;
-    font-size: 20px;
+    top: 79.5%;
+    left: 37%;
+    font-size: 25px;
     font-weight: 800;
   }
   .choose-destination .bandarban {
-    top: 2150px;
-    left: 210px;
-    font-size: 20px;
+    top: 93%;
+    left: 37%;
+    font-size: 25px;
     font-weight: 800;
     margin-bottom: 24px;
   }
@@ -859,7 +859,7 @@ footer .copyright {
 
   .discounts {
     margin: 0 15px;
-    margin-top: -60px;
+    margin-top: 50px;
   }
   .discounts .discount-text-container h1{
     font-size: 20px;
@@ -988,8 +988,8 @@ footer .copyright {
     width: 215px;
     height: 80px;
     border-radius: 16px;
-    left: 350px;
-    top: 7635px;
+    left: 60%;
+    top: 1544%;
   }
   .rotate-container h3 {
     font-size: 15.854px;
