@@ -21,13 +21,13 @@
 }
 .btn {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
 }
 .choose-destination .destination-text p,.choose-us .choose-us-text-container p, .discounts .discount-text-container p {
     color: rgba(19, 19, 24, 0.7);
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
     width: 643px;
@@ -37,7 +37,7 @@
 .choose-us .card-container .card-2 p,
 .choose-us .card-3 p , .discounts .discount-card-1 p, .perfect-place .perfect-place-text-container p, .newsletter .data-collection p{
   color: #5a5a5d;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
 }
@@ -62,7 +62,7 @@ header nav {
 }
 .nav-title h1 {
   color: #131318;
-  font-size: 36px;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 .nav-title h1 span {
@@ -81,7 +81,7 @@ nav .nav-links li a {
 nav .nav-links li {
   color: #424247;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.13rem;
   font-weight: 400;
 }
 nav .mobile-menu {
@@ -114,7 +114,7 @@ nav .mobile-menu {
 .explore p {
   color: #fff;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
   width: 676px;
@@ -129,7 +129,7 @@ nav .mobile-menu {
 }
 .explore .destination-container input {
   color: rgba(19, 19, 24, 0.5);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   width: 164px;
   height: 42px;
@@ -166,13 +166,13 @@ nav .mobile-menu {
 .popular-tours .popular-text-container h1 {
   color: #131318;
   text-align: left;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 24px;
 }
 .popular-tours .popular-text-container p {
   color: rgba(19, 19, 24, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
   margin-bottom: 24px;
@@ -182,7 +182,7 @@ nav .mobile-menu {
 }
 .popular-tours .popular-text-container li {
   color: rgba(19, 19, 24, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
   margin-bottom: 16px;
@@ -201,7 +201,7 @@ nav .mobile-menu {
 .choose-destination .destination-text h1 {
   color: #131318;
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 24px;
 }
@@ -236,7 +236,7 @@ nav .mobile-menu {
   left: 200px;
   color: #fff;
   text-align: center;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 800;
 }
 .choose-destination .indonesia {
@@ -245,7 +245,7 @@ nav .mobile-menu {
   left: 700px;
   color: #fff;
   text-align: center;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 800;
 }
 .choose-destination .srilanka {
@@ -254,7 +254,7 @@ nav .mobile-menu {
   left: 105px;
   color: #fff;
   text-align: center;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 800;
 }
 .choose-destination .north-america {
@@ -263,7 +263,7 @@ nav .mobile-menu {
   left: 450px;
   color: #fff;
   text-align: center;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 800;
 }
 .choose-destination .kashmir {
@@ -272,7 +272,7 @@ nav .mobile-menu {
   left: 840px;
   color: #fff;
   text-align: center;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 800;
 }
 .choose-destination .bangladesh {
@@ -281,7 +281,7 @@ nav .mobile-menu {
   left: 120px;
   color: #fff;
   text-align: center;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 800;
 }
 .choose-destination .bandarban {
@@ -290,7 +290,7 @@ nav .mobile-menu {
   left: 660px;
   color: #fff;
   text-align: center;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 800;
 }
 
@@ -302,7 +302,7 @@ nav .mobile-menu {
 .choose-us .choose-us-text-container h1 {
   color: #131318;
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 24px;
 }
@@ -340,7 +340,7 @@ nav .mobile-menu {
 .choose-us .card-container .card-2 h3,
 .choose-us .card-3 h3 {
   color: #131318;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: 16px;
 }
@@ -356,7 +356,7 @@ nav .mobile-menu {
 .discounts .discount-text-container h1 {
   color: #131318;
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 24px;
   margin-top: -20px;
@@ -402,13 +402,13 @@ nav .mobile-menu {
 }
 .discounts .discount-card-1 h1 {
   color: #131318;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: 16px;
 }
 .discounts .discount-card-1 h3 {
   color: #ff5400;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
   margin-bottom: 24px;
   margin-top: 16px;
@@ -432,7 +432,7 @@ nav .mobile-menu {
 }
 .perfect-place .perfect-place-text-container h1 {
   color: #131318;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   line-height: 60px;
 }
@@ -442,7 +442,7 @@ nav .mobile-menu {
 }
 .perfect-place .perfect-place-text-container ul li {
   color: #131318;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 26px;
   margin-bottom: 16px;
@@ -468,7 +468,7 @@ nav .mobile-menu {
 }
 .newsletter .data-collection h1 {
   color: #131318;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: 16px;
 }
@@ -519,12 +519,12 @@ nav .mobile-menu {
 .rotate-container h3 {
   color: #fff;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 .rotate-container h1 {
   color: #fff;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 800;
   text-align: center;
 }
@@ -536,7 +536,7 @@ nav .mobile-menu {
 }
 .gallery h1 {
   color: #131318;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   line-height: 60px;
   text-align: center;
@@ -562,7 +562,7 @@ nav .mobile-menu {
   padding: 0 10px;
   color: #fff;
   text-align: center;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 800;
   border-radius: 16px;
   border: 2px solid #fff;
@@ -614,7 +614,7 @@ footer .footer-title {
 footer .footer-description {
   color: #5a5a5d;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
 }
@@ -637,7 +637,7 @@ footer hr {
 footer .copyright {
   color: #131318;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
   display: flex;
   justify-content: center;
@@ -655,7 +655,7 @@ footer .copyright {
     margin: 20px 15px;
   }
   .nav-title h1 {
-    font-size: 21.543px;
+    font-size: 1.35rem;
   }
   nav .nav-links ul {
     /* position: absolute; */
@@ -676,12 +676,12 @@ footer .copyright {
     box-shadow: inset 1050px 0px 23px -9px rgba(0, 0, 0, 0.4);
   }
   .explore h1 {
-    font-size: 22px;
+    font-size: 1.38rem;
     margin-bottom: 8px;
     margin-top: 32px;
   }
   .explore p {
-    font-size: 14px;
+    font-size: 0.88rem;
     line-height: 21px;
     width: 350px;
     margin-bottom: 32px;
@@ -716,13 +716,13 @@ footer .copyright {
     width: 100%;
   }
   .popular-tours .popular-text-container h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 800;
     margin-bottom: 16px;
   }
   .popular-tours .popular-text-container p,
   .popular-tours .popular-text-container li {
-    font-size: 14px;
+    font-size: 0.88rem;
     line-height: 24px;
   }
   .popular-tours .popular-text-container li {
@@ -738,12 +738,12 @@ footer .copyright {
     margin: 0 15px;
   }
   .choose-destination .destination-text h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 10px;
     margin-top: 16px;
   }
   .choose-destination .destination-text p {
-    font-size: 14px;
+    font-size: 0.88rem;
     line-height: 24px;
     width: 80%;
     margin: 0 auto 48px auto;
@@ -771,43 +771,43 @@ footer .copyright {
   .choose-destination .maldives {
     top: 10%;
     left: 43%;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 700;
   }
   .choose-destination .indonesia {
     top: 24%;
     left: 43%;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 700;
   }
   .choose-destination .srilanka {
     top: 38%;
     left: 43%;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 800;
   }
   .choose-destination .north-america {
     top: 51.5%;
     left: 35%;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 800;
   }
   .choose-destination .kashmir {
     top: 65%;
     left: 43%;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 800;
   }
   .choose-destination .bangladesh {
     top: 79.5%;
     left: 37%;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 800;
   }
   .choose-destination .bandarban {
     top: 93%;
     left: 37%;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 800;
     margin-bottom: 24px;
   }
@@ -816,12 +816,12 @@ footer .copyright {
     margin: 0 15px;
   }
   .choose-us .choose-us-text-container h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 7px;
     margin-top: 45px;
   }
   .choose-us .choose-us-text-container p {
-    font-size: 14px;
+    font-size: 0.88rem;
     line-height: 24px;
     width: 80%;
     margin: 0 auto 16px auto;
@@ -848,12 +848,12 @@ footer .copyright {
   .choose-us .card-container .card-1 h3,
   .choose-us .card-container .card-2 h3,
   .choose-us .card-3 h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .choose-us .card-container .card-1 p,
   .choose-us .card-container .card-2 p,
   .choose-us .card-3 p {
-    font-size: 14px;
+    font-size: 0.88rem;
     line-height: 24px;
   }
 
@@ -862,11 +862,11 @@ footer .copyright {
     margin-top: 50px;
   }
   .discounts .discount-text-container h1{
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 16px;
   }
   .discounts .discount-text-container p {
-    font-size: 14px;
+    font-size: 0.88rem;
     line-height: 24px;
     width: 80%;
     margin: 0 auto 16px auto;
@@ -899,17 +899,17 @@ footer .copyright {
     top: 44px;
 }
 .discounts .discount-card-1 h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 8px;
     margin-top: 0px;
   }
   .discounts .discount-card-1 p {
-    font-size: 14px;
+    font-size: 0.88rem;
     line-height: 24px;
     margin-bottom: 12px;
   }
   .discounts .discount-card-1 h3 {
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 16px;
   }
   .discounts .packages {
@@ -925,20 +925,20 @@ footer .copyright {
     width: 100%;
   }
   .perfect-place .perfect-place-text-container h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 30px;
     width: 248px;
     margin-bottom: 16px;
   }
   .perfect-place .perfect-place-text-container p {
-    font-size: 14px;
+    font-size: 0.88rem;
     line-height: 24px;
     width: 80%;
     text-align: justify;
     margin-bottom: 16px;
   }
   .perfect-place .perfect-place-text-container ul li {
-    font-size: 14px;
+    font-size: 0.88rem;
     line-height: 24px;
     margin-bottom: 16px;
     width: 90%;
@@ -962,7 +962,7 @@ footer .copyright {
     text-align: center;
   }
   .newsletter .data-collection h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 8px;
   }
   .newsletter .data-collection input {
@@ -976,7 +976,7 @@ footer .copyright {
     margin-top: 16px;
   }
   .newsletter .data-collection p {
-    font-size: 14px;
+    font-size: 0.88rem;
     line-height: 24px;
     margin-bottom: 24px;
   }
@@ -992,17 +992,17 @@ footer .copyright {
     top: 1544%;
   }
   .rotate-container h3 {
-    font-size: 15.854px;
+    font-size: 1rem;
   }
   .rotate-container h1 {
-    font-size: 21.138px;
+    font-size: 1.3rem;
   }
 
   .gallery {
     margin: 0 15px;
   }
   .gallery h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 30px;
     margin-top: 24px;
   }
@@ -1012,7 +1012,7 @@ footer .copyright {
   }
   .gallery h4 {
     padding: 0 20px;
-    font-size: 20px;
+    font-size: 1.25rem;
     border-radius: 16px;
   }
   .gallery .family {
@@ -1054,12 +1054,12 @@ footer .copyright {
     margin: 0;
   }
   footer .footer-title {
-    font-size: 21.543px;
+    font-size: 1.35rem;
     margin: 34px auto 17px auto;
     padding-top: 33px;
   }
   footer .footer-description {
-    font-size: 14px;
+    font-size: 0.88rem;
     line-height: 24px;
     width: 287px;
     margin: 0 auto;
@@ -1072,7 +1072,7 @@ footer .copyright {
     margin: 0 140px;
   }
   footer .copyright {
-    font-size: 14px;
+    font-size: 0.88rem;
     margin-top: 24px;
   }
 }
