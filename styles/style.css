@@ -509,6 +509,11 @@ nav .mobile-menu {
   line-height: 26px;
   margin-bottom: 48px;
 }
+.newsletter .data-collection hr{
+    width: 393px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0 auto;
+}
 .newsletter .data-collection input {
   width: 393px;
   height: 52px;
@@ -673,4 +678,435 @@ footer .copyright {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+
+/* media query styles */
+
+/* for mobile devices */
+@media screen and (max-width: 600px) {
+    
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 15px;
+  }
+  .nav-title h1 {
+    font-size: 21.543px;
+  }
+  nav .nav-links ul {
+    /* position: absolute; */
+    display: none;
+  }
+  nav .mobile-menu {
+    position: relative;
+    display: inline;
+  }
+
+  .explore {
+    margin: 0 20px 24px 20px;
+    width: calc(100% - 40px);
+    height: 483px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 1050px 0px 23px -9px rgba(0, 0, 0, 0.4);
+  }
+  .explore h1 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    margin-top: 32px;
+  }
+  .explore p {
+    font-size: 14px;
+    line-height: 21px;
+    width: 350px;
+    margin-bottom: 32px;
+  }
+  .explore .destination-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .explore .destination-container .arrow-1 {
+    position: absolute;
+    left: 355px;
+    top: 355px;
+    font-size: 1.3rem;
+  }
+  .explore .destination-container .arrow-2 {
+    position: absolute;
+    left: 355px;
+    top: 415px;
+    font-size: 1.3rem;
+  }
+  .explore .destination-container .btn-primary .search {
+    top: 475px;
+    left: 245px;
+    background-color: red;
+  }
+  .popular-tours {
+    margin: 0 15px;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .popular-tours .popular-text-container {
+    width: 100%;
+  }
+  .popular-tours .popular-text-container h1 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+  .popular-tours .popular-text-container p,
+  .popular-tours .popular-text-container li {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .popular-tours .popular-text-container li {
+    margin-bottom: 12px;
+  }
+  .popular-tours img {
+    height: 342px;
+    object-fit: cover;
+    margin-bottom: 24px;
+  }
+
+  .choose-destination {
+    margin: 0 15px;
+  }
+  .choose-destination .destination-text h1 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .choose-destination .destination-text p {
+    font-size: 14px;
+    line-height: 24px;
+    width: 80%;
+    margin: 0 auto 48px auto;
+    margin-bottom: 16px;
+  }
+
+  .choose-destination .destination-image-container .row-1,
+  .choose-destination .destination-image-container .row-2,
+  .choose-destination .destination-image-container .row-3 {
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  .choose-destination .destination-image-container .row-1 img,
+  .choose-destination .destination-image-container .row-2 .img-3,
+  .choose-destination .destination-image-container .row-2 .img-4,
+  .choose-destination .destination-image-container .row-2 .img-5,
+  .choose-destination .destination-image-container .row-3 .img-6,
+  .choose-destination .destination-image-container .row-3 .img-7 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .choose-destination .maldives {
+    top: 235px;
+    left: 240px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .choose-destination .indonesia {
+    top: 570px;
+    left: 240px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .choose-destination .srilanka {
+    top: 845px;
+    left: 240px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .choose-destination .north-america {
+    top: 1195px;
+    left: 240px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .choose-destination .kashmir {
+    top: 1495px;
+    left: 240px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .choose-destination .bangladesh {
+    top: 1830px;
+    left: 210px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .choose-destination .bandarban {
+    top: 2150px;
+    left: 210px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 24px;
+  }
+
+  .choose-us {
+    margin: 0 15px;
+  }
+  .choose-us .choose-us-text-container h1 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .choose-us .choose-us-text-container p {
+    font-size: 14px;
+    line-height: 24px;
+    width: 80%;
+    margin: 0 auto 16px auto;
+  }
+  .choose-us .card-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .choose-us .card-container .card-1,
+  .choose-us .card-container .card-2,
+  .choose-us .card-3 {
+    width: 88%;
+    padding: 32px;
+  }
+  .choose-us .card-3 {
+    margin-top: 16px;
+  }
+  .choose-us .card-container .fa-hotel,
+  .choose-us .card-container .fa-handshake-angle,
+  .choose-us .card-3 .fa-user-tag {
+    font-size: 2.9rem;
+    margin-bottom: 16px;
+  }
+  .choose-us .card-container .card-1 h3,
+  .choose-us .card-container .card-2 h3,
+  .choose-us .card-3 h3 {
+    font-size: 20px;
+  }
+  .choose-us .card-container .card-1 p,
+  .choose-us .card-container .card-2 p,
+  .choose-us .card-3 p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .discounts {
+    margin: 0 15px;
+    margin-top: -60px;
+  }
+  .discounts .discount-text-container h1{
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .discounts .discount-text-container p {
+    font-size: 14px;
+    line-height: 24px;
+    width: 80%;
+    margin: 0 auto 16px auto;
+  }
+  .discounts .flex-container img {
+    width: 100%;
+    height: 500px;
+  }
+  .discounts .discount-card-1 {
+    padding: 20px;
+    border-radius: 16px;
+    width: 300px;
+    height: 300px;
+    left: 80px;
+    top: 20px;
+  }
+  .discounts .discount-card-1 .location {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    white-space: nowrap;
+  }
+.discounts .discount-card-1 .location .left{
+    margin-bottom: -20px;
+}
+.discounts .discount-card-1 .location .right{
+    position: absolute;
+    left: 150px;
+    top: 52px;
+}
+.discounts .discount-card-1 h1 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 0px;
+  }
+  .discounts .discount-card-1 p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .discounts .discount-card-1 h3 {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .discounts .packages {
+    display: none;
+  }
+
+  .perfect-place {
+    margin: 16px 15px;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .perfect-place .perfect-place-text-container {
+    width: 100%;
+  }
+  .perfect-place .perfect-place-text-container h1 {
+    font-size: 20px;
+    line-height: 30px;
+    width: 248px;
+    margin-bottom: 16px;
+  }
+  .perfect-place .perfect-place-text-container p {
+    font-size: 14px;
+    line-height: 24px;
+    width: 80%;
+    text-align: justify;
+    margin-bottom: 16px;
+  }
+  .perfect-place .perfect-place-text-container ul li {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    width: 90%;
+  }
+  .perfect-place iframe {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 24px;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    margin: 0 15px;
+    gap: 16px;
+  }
+  .newsletter .data-collection {
+    width: 90%;
+    padding: 24px;
+    border-radius: 16px;
+    text-align: center;
+  }
+  .newsletter .data-collection h1 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .newsletter .data-collection input {
+    width: 288px;
+    height: 52px;
+    margin: 16px 24px 0 24px;
+  }.newsletter .data-collection .last-btn {
+    width: 307px;
+    height: 52px;
+    margin-left: 98px;
+    margin-top: 16px;
+  }
+  .newsletter .data-collection p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+  .newsletter .img {
+    width: 100%;
+  }
+
+  .rotate-container {
+    width: 215px;
+    height: 80px;
+    border-radius: 16px;
+    left: 360px;
+    top: 7610px;
+  }
+  .rotate-container h3 {
+    font-size: 15.854px;
+  }
+  .rotate-container h1 {
+    font-size: 21.138px;
+  }
+
+  .gallery {
+    margin: 0 15px;
+  }
+  .gallery h1 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 24px;
+  }
+  .gallery .gallery-img-container {
+    width: 100%;
+    gap: 5px;
+  }
+  .gallery h4 {
+    padding: 0 20px;
+    font-size: 20px;
+    border-radius: 16px;
+  }
+  .gallery .family {
+    top: 160px;
+    left: 75px;
+    background-color: red;
+  }
+  .gallery .solo {
+    top: 160px;
+    left: 375px;
+    background-color: red;
+  }
+  .gallery .friends {
+    top: 380px;
+    left: 75px;
+    background-color: red;
+  }
+  .gallery .students {
+    top: 380px;
+    left: 355px;
+    background-color: red;
+  }
+  .gallery .honeymoon {
+    top: 540px;
+    left: 70px;
+    background-color: red;
+  }
+  .gallery .temple {
+    top: 540px;
+    left: 350px;
+    background-color: red;
+  }
+  .gallery .our-btn {
+    margin: 24px auto 24px auto;
+  }
+
+  footer {
+    height: 300px;
+    margin: 0;
+  }
+  footer .footer-title {
+    font-size: 21.543px;
+    margin: 34px auto 17px auto;
+    padding-top: 33px;
+  }
+  footer .footer-description {
+    font-size: 14px;
+    line-height: 24px;
+    width: 287px;
+    margin: 0 auto;
+  }
+  footer .social {
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  footer hr {
+    margin: 0 140px;
+  }
+  footer .copyright {
+    font-size: 14px;
+    margin-top: 24px;
+  }
 }
